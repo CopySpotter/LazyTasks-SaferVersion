@@ -1,0 +1,26 @@
+BUSYTASKS SAFE 1.1 – START AUF LINUX MINT (CINNAMON)
+===================================================
+
+1. ZIP entpacken (mit dem Dateimanager).
+2. Terminal im entpackten Ordner BusyTasks_Safe_Mint_v1_1 öffnen.
+3. ./start.sh
+   oder: java -jar dist/BusyTasks-Safe-1.1.jar
+
+Bei "java: command not found":
+   sudo apt install openjdk-17-jre
+
+WICHTIG: Die Anwendung NICHT mit sudo starten.
+
+Bedienung:
+- Oben vier große Anzeigen für CPU, RAM, Datenträger, Netzwerk.
+- Unten Prozessliste; auf Spaltenkopf klicken zum Sortieren.
+- Suche = Prozessname oder PID.
+- Doppelklick = Details.
+- Pausieren / Fortsetzen; Intervall 1/2/5 Sekunden.
+- Fenstergröße bleibt gespeichert.
+- Klassisches Mini-Widget: Menü "Datei".
+
+Wenn der bisherige Mini-Monitor geöffnet ist, diesen zuerst schließen.
+Ein SLF4J-Hinweis im Terminal ist in der Regel unkritisch.
+Bei einem Fehler bitte die vollständige Terminalmeldung schicken,
+aber keine Passwörter oder Konfigurationsdateien mit privaten Angaben.
