@@ -59,6 +59,12 @@ Die Dokumentation [Vom BusyTasks zu LazyTasks](docs/PHILOSOPHIE.md) beschreibt d
 
 **Always on top bleibt der Kern.** Eine große Diagnoseansicht kann ergänzen, soll den kleinen Beobachter aber nicht ersetzen.
 
+## Nächste Schritte
+
+- [To-do-Liste und Prioritäten](docs/TODO.md)
+- [Brainstorming: Lazy & Rock ’n’ Roll](docs/BRAINSTORMING.md)
+- [Philosophischer Überbau](docs/PHILOSOPHIE.md)
+
 ## Geplante Entwicklung
 
 - [x] Ausgangsstand v0.0.0 als Pre-Release dokumentieren
