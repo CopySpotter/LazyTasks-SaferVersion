@@ -1,0 +1,9 @@
+# Generated build artifacts (release binaries are distributed separately)
+dist/
+*.class
+
+# Local editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+*~
