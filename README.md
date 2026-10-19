@@ -63,7 +63,7 @@ Die Dokumentation [Vom BusyTasks zu LazyTasks](docs/PHILOSOPHIE.md) beschreibt d
 
 - [x] Ausgangsstand v0.0.0 als Pre-Release dokumentieren
 - [x] Philosophie und Urheberschaft dokumentieren
-- [ ] Übernahme von Quellcode, Tests und Build-Abhängigkeit in `main` verifizieren
+- [x] Quellcode, Tests, GPL-Lizenz und Offline-Build-Abhängigkeit in `main` übernommen und verifiziert
 - [ ] Minimalen Vordergrundmodus zur Hauptfunktion machen
 - [ ] Sicherheit und Lizenzhinweise aller Drittbibliotheken überprüfen
 - [ ] Release und Build auf Linux Mint reproduzierbar testen
