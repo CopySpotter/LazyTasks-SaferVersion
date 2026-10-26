@@ -1,6 +1,6 @@
 # LazyTasks – To-do und Arbeitsagenda
 
-Stand: 19.10.2026 · Nächste gemeinsame Besprechung: Woche ab 26.10.2026
+Stand: 26.10.2026 · Nächste Phase: Entscheidungen für v0.1.0
 
 > **Der Computer darf beschäftigt sein. Sein Benutzer muss es nicht.**
 
@@ -8,13 +8,15 @@ Stand: 19.10.2026 · Nächste gemeinsame Besprechung: Woche ab 26.10.2026
 
 ## P0 – Vor der nächsten Programmversion prüfen
 
-- [ ] **GitHub Actions prüfen:** `Build and tests` und dessen Java-17-Build; eventuelle rote/ausstehende Runs untersuchen. [Actions](https://github.com/CopySpotter/LazyTasks-SaferVersion/actions)
-- [ ] **Release 0 als Referenz konservieren:** `v0.0.0` mit ZIP, Quellcode, Lizenz und Originalquelle dokumentiert lassen. [Release](https://github.com/CopySpotter/LazyTasks-SaferVersion/releases/tag/v0.0.0)
+- [x] **GitHub Actions geprüft (26.10.):** `Build and tests` und Import vom 19.10. erfolgreich; Java-17-Build, Tests und JAR-Prüfung grün. [Build-Lauf](https://github.com/CopySpotter/LazyTasks-SaferVersion/actions/runs/39284579686)
+- [x] **Release 0 als Referenz dokumentiert:** `v0.0.0` mit ZIP, Quellcode, Lizenz und Originalquelle. [Release](https://github.com/CopySpotter/LazyTasks-SaferVersion/releases/tag/v0.0.0)
 - [ ] **Build aus frischem Checkout auf Mint prüfen:** `bash build.sh test`, anschließend grafischer Start ohne `sudo`; Fehler und Systemdaten dokumentieren.
 - [ ] **Sicherheitsprüfung zu Ende führen:** Keine Passwortspeicherung und kein `sudo -S`; Umgang mit privilegierten Aufrufen und Alt-Konfiguration nachvollziehen. Kein Sicherheitsversprechen ohne Test.
 - [ ] **Fremdbibliotheken/Lizenzen prüfen:** Mitgelieferte `vendor/BusyTasks-u2.9.jar` auf Abhängigkeiten, Lizenzen und Updatefähigkeit untersuchen; Originalautor Bernhard Mayr weiterhin nennen.
 
 ## P1 – Gemeinsam über v0.1.0 entscheiden
+
+[Entscheidungsvorlage v0.1.0](ENTSCHEIDUNGSVORLAGE_V0.1.0.md) – vier offene Produktentscheidungen, konkreter Umsetzungsvorschlag und Abnahmekriterien.
 
 - [ ] **Kernprodukt festlegen:** Klassische kleine Anzeige ist der Hauptmodus; große Übersicht nur auf Wunsch.
 - [ ] **Always-on-top unter Cinnamon/X11 testen:** Verhalten beim Fensterwechsel, über Vollbild, bei mehreren Bildschirmen und nach Neustart.
